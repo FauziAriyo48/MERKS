@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!-- ImageView for Team Badge -->
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+
+
+        <!-- Team Name -->
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Nama"
+            android:layout_marginTop="16dp" />
+        <!-- League Name -->
+        <TextView
+            android:id="@+id/tv_item_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asal"
+            android:layout_marginTop="8dp" />
+        <!-- Team Description -->
+        <TextView
+            android:id="@+id/tv_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="deskripsi"
+            android:layout_marginTop="8dp" />
+        <!-- Stadium -->
+        <TextView
+            android:id="@+id/tv_item_stadium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="filosofi"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kuliner</string>
+    <string name="grid">grid</string>
+    <string name="list">list</string>
+    <string name="about">about</string>
+    <string name="icon" />
+    <string name="profile" >Muhammad Fauzi Ariyo </string>
+    <string name="email">fauziariyo12@gmail.com</string>
+</resources>
